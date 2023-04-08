@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#B2ECE6">
 
     <TextView
         android:id="@+id/textView"
@@ -11,9 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="Sign In"
-        android:textColor="#000"
+        android:textColor="#3F51B5"
         android:textSize="50sp" />
 
     <EditText
@@ -21,7 +23,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="71dp"
         android:ems="10"
         android:gravity="center"
         android:hint="Enter Email"
@@ -29,32 +31,32 @@
         android:textColor="#000" />
 
     <EditText
+        android:id="@+id/editPassword"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="Enter Password"
-        android:textColor="#000"
-        android:ems="10"
         android:layout_below="@+id/editEmail"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:id="@+id/editPassword"
-        android:gravity="center"/>
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#000" />
 
     <Button
+        android:id="@+id/buttonLogin"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonLogin"
         android:layout_below="@+id/editPassword"
         android:layout_marginTop="20dp"
-        android:text="Sign In "/>
+        android:text="Sign In " />
 
     <Button
+        android:id="@+id/buttonRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonRegister"
         android:layout_below="@+id/buttonLogin"
         android:layout_marginTop="20dp"
-        android:text="Sign Up"/>
+        android:text="Sign Up" />
 
 </RelativeLayout>
