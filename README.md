@@ -1,5 +1,9 @@
-# WeatherAppInAndroidStudio
-This is amazing weather app which uses open weather api and it can fetch the weather of your current location or any particular city. The UI of the app is completely responsive and you can also watch the detailed tutorial on my Channel
+Created a Weather App containing 2 main components:
+  1. Login Page
+  2. Weather details
+  
+For Login Authentication we are using SQLite. For Login Credentials a user gets two options:
+  1. Sign in
+  2. Sign up
 
-
-![Copy of seek bar (3)](https://user-images.githubusercontent.com/64765400/103085628-1c2cac00-4597-11eb-9c40-3d1663e0a39a.png)
+Once creating an account a users get the display of the current Location, if he / she wants to see the weather of any other location, the user gets an option to so.
